@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { isRequiredArgument } = require('graphql');
 const Schema = mongoose.Schema;
 
 const locationSchema =  new Schema({
